@@ -5,6 +5,9 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import { SandpackRunner } from "@codesandbox/sandpack-react";
+
+const CustomSandpack = () => <SandpackRunner />;
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
