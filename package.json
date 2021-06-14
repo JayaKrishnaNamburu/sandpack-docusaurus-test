@@ -17,7 +17,6 @@
     "@codesandbox/sandpack-react": "0.0.6",
     "@docusaurus/core": "2.0.0-beta.0",
     "@docusaurus/preset-classic": "2.0.0-beta.0",
-    "docusaurus-node-polyfills": "https://github.com/JayaKrishnaNamburu/docusaurus-node-polyfills",
     "@mdx-js/react": "^1.6.21",
     "@svgr/webpack": "^5.5.0",
     "clsx": "^1.1.1",
@@ -37,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "docusaurus-node-polyfills": "^1.0.0"
   }
 }
